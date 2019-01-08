@@ -1,5 +1,0 @@
-configuration
-newbie
-enumerate
-exit
-lose...!
