@@ -1,3 +1,4 @@
 configuration
 newbie
 enumerate
+exit
