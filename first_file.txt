@@ -2,3 +2,4 @@ configuration
 newbie
 enumerate
 exit
+fail...
