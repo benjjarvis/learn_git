@@ -2,4 +2,4 @@ configuration
 newbie
 enumerate
 exit
-fail...
+lose...!
