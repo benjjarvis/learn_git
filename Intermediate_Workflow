@@ -1,0 +1,15 @@
+
+$ git diff
+
+$ git add .
+$ git status
+$ git push 선택 파일                     # 선택적 파일 푸시
+
+$ git rm --cached dummy.txt             # status해서 stage에 올린 파일을 끄집어 내린 것
+                                        # but, 지워진 것은 아님
+
+
+# gitignore에 secrets/를 쓰면 자동으로 secrets/ 폴더는 status를 찍어도 상황이 보이지 않음.
+
+# mv .gitignore .gitignore_global
+# cat gitignore_global
