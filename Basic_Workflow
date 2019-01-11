@@ -1,0 +1,24 @@
+# Basic Workflow
+
+```sh
+$ git init
+$ git status
+$ git add .
+$ git status                                                            # 초록색만 커밋됨
+$ git commit -m '짧고 간결한 현재형'
+
+# github, bitbucket, gitlab etc... remote repo를 생성
+$ git remote add origin <REMOTE REPO URL.git>
+$ git push -u origin master                                             # 첫번째 시도에만
+
+# 다른 컴퓨터라면,
+$ git clone <REMOTE REPO URL.git>                                       # download zip을 하면 .git이 없음
+
+# 다른 컴퓨터에서 작업을 다 하면,
+1부터 5까지 반복하고 git push
+$ git add . && git commit -m 'MSG' && git push                          # &&은 전체가 하나의 메시지 처리, ;은 각각 하나씩의 메시지로 취급
+$ git add . ; git commit -m 'MSG' ; git push                            # 이렇게 하면 한꺼번에 다 처리됨
+
+# 이후 다른 컴퓨터에서 또 작업을 하려면
+$ git pull
+```
