@@ -13,3 +13,6 @@ $ git rm --cached dummy.txt             # status해서 stage에 올린 파일을
 
 # mv .gitignore .gitignore_global
 # cat gitignore_global
+
+
+# git checkout -b help-page             # help-page를 만들고 체크아웃해서 마스터로 가겠다.
